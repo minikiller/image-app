@@ -28,6 +28,9 @@ def rgb_to_hsv(r, g, b):
 GREEN_RANGE_MIN_HSV = (100, 80, 70)
 GREEN_RANGE_MAX_HSV = (185, 255, 255)
 
+"""图片去掉绿色处理
+"""
+
 
 def create_img(fileName):
     # Load image and convert it to RGBA, so it contains alpha channel
